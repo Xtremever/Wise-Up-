@@ -1,0 +1,56 @@
+body{
+    background-color: #228c6c;
+background-image: url("https://www.transparenttextures.com/patterns/cubes.png");
+/* This is mostly intended for prototyping; please download the pattern and re-host for production environments. Thank you! */
+margin: 0%;
+font-family: 'Gabriela';
+}
+
+header{
+    display: flex;
+    flex-direction: column;
+}
+
+.index{
+    display: flex;
+    justify-content: center;
+    height: fit-content;
+    font-size: 128px;
+    width: 100vw;
+    background-color: #7FC29B;
+    color: black;
+}
+
+button{
+    height: 10vh;
+}
+
+ul{
+    height: 10vh;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+    list-style: none;
+    background-color: #803d64;
+}
+
+ul a{
+    background-color: #803d64;
+    font-size: 40px;
+    color: white;
+}
+
+a{
+    text-decoration: none;
+}
+
+.links{
+    margin: 0%;
+}
+
+.hero{
+    background-color: rgb(98, 98, 99);
+    width: 100%;
+    height: 45vh;
+}
