@@ -70,7 +70,8 @@ background-image: url(IMG/img-00.png);
     background-color: #3C0375;
     color: #fff;
     border-radius: 35%;
-    height: 40vh;
+    height:60vh ;
+    margin-bottom: 5%;
 }
 
 .Welcome h3{
