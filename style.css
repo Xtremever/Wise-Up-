@@ -162,3 +162,7 @@ footer{
     background-color: #fff;
     height: 45vh;
 }
+
+.career-input{
+    border: solid rgba(206, 182, 109, 0.347);
+}
