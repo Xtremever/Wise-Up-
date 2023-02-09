@@ -3,7 +3,7 @@ body{
 background-image: url("https://www.transparenttextures.com/patterns/cubes.png");
 /* This is mostly intended for prototyping; please download the pattern and re-host for production environments. Thank you! */
 margin: 0%;
-font-family: 'Gabriela';
+font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
 font-size: 40px;
 }
 
@@ -144,3 +144,21 @@ footer{
     font-size: 20px;
 }
 
+.career{
+    background-color: #bb3c62;
+}
+
+.flex{
+    display: flex;
+}
+
+.home{
+    background-image: url(IMG/img-01.png) ;
+    background-size: cover;
+    height: 45vh;
+}
+
+.Cal{
+    background-color: #fff;
+    height: 45vh;
+}

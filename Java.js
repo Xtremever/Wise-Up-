@@ -71,4 +71,13 @@ const data = [
     [ 'Wind EnergyTechnician', 56700 ]
 ]
 
-let e = 
+let e = document.getElementById("temp");
+let career = e.options[e.selectedIndex].text;
+e.addEventListener('change', setIncome);
+
+for(job of data){
+    let newOption = document.createElement('option');
+    newOption.setAttribute('value', job[1]);
+    newOption.innerText = job[0];
+    e.appendChild(newOption)
+}
